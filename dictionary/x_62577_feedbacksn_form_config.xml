@@ -3,6 +3,7 @@
     <element label="Form Config" max_length="40" name="x_62577_feedbacksn_form_config" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Read Only" max_length="40" name="disable" type="boolean"/>
+        <element label="Group" max_length="40" name="group" type="boolean"/>
         <element label="Label" mandatory="true" max_length="40" name="label" type="string"/>
         <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Options" max_length="10000" name="options" type="string"/>

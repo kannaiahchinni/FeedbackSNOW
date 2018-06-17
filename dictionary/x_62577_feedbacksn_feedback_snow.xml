@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element audit="true" label="Feedback SNOW" max_length="40" name="x_62577_feedbacksn_feedback_snow" type="collection">
-        <element label="Application" max_length="1000" name="application" type="string_full_utf8"/>
-        <element label="Comments" max_length="40000" name="comments" type="string_full_utf8"/>
-        <element label="Description" max_length="10000" name="description" type="string_full_utf8"/>
-        <element label="Rating" max_length="40" name="rating" type="integer"/>
-        <element label="URL" max_length="10000" name="url" type="string_full_utf8"/>
+        <element label="Application" max_length="1000" name="application" read_only="true" type="string_full_utf8"/>
+        <element choice="1" label="Category" max_length="40" name="categroy" read_only="true" type="choice">
+            <choice>
+                <element label="Performance" sequence="1" value="performance"/>
+                <element label="Enhancement" sequence="2" value="enhancement"/>
+                <element label="Design" sequence="3" value="design"/>
+                <element label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="40000" name="comments" read_only="true" type="string_full_utf8"/>
+        <element label="Description" max_length="10000" name="description" read_only="true" type="string_full_utf8"/>
+        <element label="Rating" max_length="40" name="rating" read_only="true" type="integer"/>
+        <element label="URL" max_length="10000" name="url" read_only="true" type="string_full_utf8"/>
     </element>
 </database>

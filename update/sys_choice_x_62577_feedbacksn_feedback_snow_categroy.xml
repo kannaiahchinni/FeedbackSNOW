@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="categroy" table="x_62577_feedbacksn_feedback_snow" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categroy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Performance</label>
+            <language>en</language>
+            <name>x_62577_feedbacksn_feedback_snow</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 06:17:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85ddcf4c37ba13008331dcc773990e7e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 06:17:35</sys_updated_on>
+            <value>performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categroy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enhancement</label>
+            <language>en</language>
+            <name>x_62577_feedbacksn_feedback_snow</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 06:16:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78cd870c37ba13008331dcc773990e1c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 06:17:16</sys_updated_on>
+            <value>enhancement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categroy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Design</label>
+            <language>en</language>
+            <name>x_62577_feedbacksn_feedback_snow</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 06:17:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08fd8b8837fa13008331dcc773990e5c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 06:17:50</sys_updated_on>
+            <value>design</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>categroy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_62577_feedbacksn_feedback_snow</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 07:40:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73fd8b8837fa13008331dcc773990e5d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 07:40:50</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>categroy</element>
+            <name>x_62577_feedbacksn_feedback_snow</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-15 06:16:55</sys_created_on>
+            <sys_id>f4ddc78837fa13008331dcc773990e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>categroy</sys_name>
+            <sys_package display_value="FeedbackSnow" source="x_62577_feedbacksn">d1ccbb11371113008331dcc773990e8a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FeedbackSnow">d1ccbb11371113008331dcc773990e8a</sys_scope>
+            <sys_update_name>sys_choice_x_62577_feedbacksn_feedback_snow_categroy</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-15 06:16:55</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
